@@ -1,0 +1,46 @@
+.section-link {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	width: 50px;
+	height: 50px;
+
+	background-color: #f5b8b836;
+	border-radius: 50%;
+
+	cursor: pointer;
+
+	overflow: hidden;
+}
+
+.section-link-icon {
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	color: var(--color-pink);
+	font-size: 32px;
+	animation: drop-down 4s infinite ease-in;
+}
+
+@keyframes drop-down {
+	0% {
+		opacity: 0;
+		transform: translate(-50%, -100%);
+	}
+	33.3% {
+		opacity: 1;
+		transform: translate(-50%, 50%);
+	}
+	66.6% {
+		opacity: 1;
+		transform: translate(-50%, 50%);
+	}
+	100% {
+		opacity: 0;
+		transform: translate(-50%, 200%);
+	}
+}

@@ -1,0 +1,28 @@
+.hero {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	height: 100%;
+	width: 100%;
+
+	padding: 22px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image: linear-gradient(to top, #24232bdc, #f5b8b8de),
+		url('../../assets/images/hero-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	overflow: hidden;
+}
+
+.hero .heading {
+	color: var(--color-white);
+	max-width: 580px;
+	text-align: center;
+}

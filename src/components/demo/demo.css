@@ -1,0 +1,20 @@
+.section-demo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+	width: 100%;
+}
+
+.section-demo .content {
+	max-width: 380px;
+}
+.section-demo .title {
+	text-align: center;
+	letter-spacing: -2px;
+	color: var(--color-pink);
+
+	margin-bottom: 22px;
+}
